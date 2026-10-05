@@ -1,0 +1,572 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>АВТОТЕХ — автосервис в Москве | Диагностика, ремонт, обслуживание</title>
+<meta name="description" content="Автосервис АВТОТЕХ в Москве: диагностика, техническое обслуживание, ремонт двигателя и ходовой, тормозная система, электрика. Гарантия на работы, оригинальные запчасти, фотоотчёт.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%23D32F2F'/%3E%3Cpath fill-rule='evenodd' d='M16 5.4 26.6 25h-4.6l-2.1-4.5h-7.8L9.9 25H5.4L16 5.4Zm0 6.3-2.3 5h4.6L16 11.7Z' fill='%23fff'/%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+
+<!-- ======================= ВЕРХНЯЯ ПАНЕЛЬ ======================= -->
+<div class="topbar">
+  <div class="container topbar__in">
+    <div class="topbar__item">
+      <svg viewBox="0 0 24 24" width="15" height="15" aria-hidden="true"><path d="M12 21s7-5.6 7-11a7 7 0 1 0-14 0c0 5.4 7 11 7 11z" fill="none" stroke="currentColor" stroke-width="1.7"/><circle cx="12" cy="10" r="2.6" fill="none" stroke="currentColor" stroke-width="1.7"/></svg>
+      <span>Москва, ул. Мастеровая, 12, стр. 3</span>
+    </div>
+    <div class="topbar__item">
+      <svg viewBox="0 0 24 24" width="15" height="15" aria-hidden="true"><circle cx="12" cy="12" r="8.6" fill="none" stroke="currentColor" stroke-width="1.7"/><path d="M12 7.4V12l3.2 2" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></svg>
+      <span>Ежедневно с 09:00 до 21:00</span>
+    </div>
+    <div class="topbar__right">
+      <a href="tel:+79000000000" class="topbar__tel">+7 (900) 000-00-00</a>
+      <a href="#cta" class="topbar__cb">Заказать звонок</a>
+    </div>
+  </div>
+</div>
+
+<!-- ======================= ШАПКА ======================= -->
+<header class="hdr" id="hdr">
+  <div class="container hdr__in">
+    <a href="#top" class="logo">
+      <span class="logo__ic">
+        <svg viewBox="0 0 32 32" width="30" height="30" aria-hidden="true"><path fill-rule="evenodd" d="M16 4.6 27.4 25h-5.1l-2.3-4.9h-8L9.7 25H4.6L16 4.6Zm0 6.9-2.5 5.4h5L16 11.5Z" fill="currentColor"/></svg>
+      </span>
+      <span class="logo__tx">
+        <b>АВТОТЕХ</b>
+        <i>автосервис в Москве</i>
+      </span>
+    </a>
+
+    <nav class="nav" id="nav" aria-label="Основная навигация">
+      <a href="#services">Услуги</a>
+      <a href="#prices">Цены</a>
+      <a href="#about">О компании</a>
+      <a href="#process">Как мы работаем</a>
+      <a href="#reviews">Отзывы</a>
+      <a href="#contacts">Контакты</a>
+      <div class="nav__mob">
+        <a href="#cta" class="btn btn--red btn--full">Записаться на сервис</a>
+        <a href="tel:+79000000000" class="nav__tel">+7 (900) 000-00-00</a>
+      </div>
+    </nav>
+
+    <div class="hdr__end">
+      <a href="#cta" class="btn btn--red btn--sm">Записаться на сервис</a>
+      <button class="burger" id="burger" aria-label="Открыть меню" aria-expanded="false" aria-controls="nav">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+</header>
+<div class="navbg" id="navbg"></div>
+
+<main id="top">
+
+<!-- ======================= HERO ======================= -->
+<section class="hero">
+  <img class="hero__bg" src="assets/img/hero-lift.jpg" alt="Автомобиль на подъёмнике в профессиональном автосервисе" width="1400" height="1867" fetchpriority="high">
+
+  <div class="container hero__in">
+    <div class="hero__tx">
+      <span class="hero__badge">Автосервис полного цикла · с 2014 года</span>
+      <h1 class="hero__h1">Автосервис,<br>которому можно<br><em>доверить автомобиль</em></h1>
+      <p class="hero__p">Диагностика, ремонт и обслуживание автомобилей с гарантией на работы. Оригинальные запчасти, фотоотчёт по каждому этапу и соблюдение сроков.</p>
+      <div class="hero__btns">
+        <a href="#cta" class="btn btn--red btn--lg">Записаться на сервис</a>
+        <a href="#services" class="btn btn--glass btn--lg">Смотреть услуги</a>
+      </div>
+    </div>
+
+    <ul class="hero__adv">
+      <li>
+        <svg viewBox="0 0 32 32" width="26" height="26" aria-hidden="true"><path d="M5 22h22M8 22V12l4-4h8l4 4v10" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/><circle cx="11" cy="25" r="2.2" fill="none" stroke="currentColor" stroke-width="1.6"/><circle cx="21" cy="25" r="2.2" fill="none" stroke="currentColor" stroke-width="1.6"/></svg>
+        <b>10+ лет опыта</b>
+        <span>С 2014 года в Москве</span>
+      </li>
+      <li>
+        <svg viewBox="0 0 32 32" width="26" height="26" aria-hidden="true"><path d="M16 4l10 4v7c0 6.2-4.2 11.4-10 13-5.8-1.6-10-6.8-10-13V8z" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/><path d="M11.6 16.2l3.1 3.1 6-6.4" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        <b>Гарантия на работы</b>
+        <span>До 24 месяцев и 40 000 км</span>
+      </li>
+      <li>
+        <svg viewBox="0 0 32 32" width="26" height="26" aria-hidden="true"><path d="M16 5l9.5 4.6v11L16 25.2 6.5 20.6v-11z" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/><path d="M6.5 9.6L16 14.2l9.5-4.6M16 14.2v11" fill="none" stroke="currentColor" stroke-width="1.6"/></svg>
+        <b>Оригинальные запчасти</b>
+        <span>Оригинал и качественные аналоги</span>
+      </li>
+    </ul>
+  </div>
+</section>
+
+<!-- ======================= ПРЕИМУЩЕСТВА ======================= -->
+<section class="sec feats">
+  <div class="container">
+    <div class="sec__hd">
+      <div>
+        <span class="sec__mark">01 — Преимущества</span>
+        <h2 class="sec__h2">Почему нам доверяют автомобили</h2>
+      </div>
+      <p class="sec__lead">Работаем с легковыми автомобилями, кроссоверами и коммерческим транспортом. Диагностика проводится до начала работ — всегда и без исключений.</p>
+    </div>
+
+    <div class="feats__grid">
+      <article class="fbox">
+        <span class="fbox__n">01</span>
+        <h3>Прозрачная стоимость</h3>
+        <p>Смета в письменном виде до начала работ. Каждый дополнительный этап согласовываем отдельно — итог не меняется по ходу ремонта.</p>
+      </article>
+      <article class="fbox">
+        <span class="fbox__n">02</span>
+        <h3>Опытные специалисты</h3>
+        <p>Средний стаж мастера — 9 лет. Аттестация по маркам автомобилей проводится ежегодно, есть допуск к работе с АКПП.</p>
+      </article>
+      <article class="fbox">
+        <span class="fbox__n">03</span>
+        <h3>Современное оборудование</h3>
+        <p>Гидравлические подъёмники, сканеры дилерского уровня, стенды для шиномонтажа и балансировки, собственный диагностический центр.</p>
+      </article>
+      <article class="fbox">
+        <span class="fbox__n">04</span>
+        <h3>Гарантия на работы</h3>
+        <p>До 24 месяцев и до 40 000 км. Выдаём гарантийный талон на все выполненные операции и использованные запчасти.</p>
+      </article>
+      <article class="fbox">
+        <span class="fbox__n">05</span>
+        <h3>Фотоотчёт о ремонте</h3>
+        <p>Фотографии до, в процессе и после работ отправляем в мессенджер. Вы видите, что именно сделано с вашим автомобилем.</p>
+      </article>
+      <article class="fbox">
+        <span class="fbox__n">06</span>
+        <h3>Соблюдение сроков</h3>
+        <p>Если задерживаем — предупреждаем заранее и не берём доплату за простой. Отдельные посты работают параллельно, без общей очереди.</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ======================= УСЛУГИ ======================= -->
+<section class="sec sec--grey" id="services">
+  <div class="container">
+    <div class="sec__hd">
+      <div>
+        <span class="sec__mark">02 — Услуги</span>
+        <h2 class="sec__h2">Всё необходимое<br>для вашего автомобиля</h2>
+      </div>
+      <p class="sec__lead">Полный комплекс работ для большинства марок. Не нашли нужную услугу — позвоните, назовём стоимость по телефону за пять минут.</p>
+    </div>
+
+    <div class="svc">
+      <article class="scard">
+        <span class="scard__n">01</span>
+        <div class="scard__ic">
+          <svg viewBox="0 0 32 32" width="26" height="26" aria-hidden="true"><path d="M4 23h24" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/><path d="M6.5 23V11h19v12" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/><path d="M11 11V7h10v4" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/><circle cx="11" cy="26" r="2" fill="none" stroke="currentColor" stroke-width="1.7"/><circle cx="21" cy="26" r="2" fill="none" stroke="currentColor" stroke-width="1.7"/></svg>
+        </div>
+        <h3>Диагностика автомобиля</h3>
+        <p>Комплексная проверка кузова, агрегатов и систем. Протокол осмотра с фотографиями и перечнем найденного — в руки или в мессенджер.</p>
+        <ul class="scard__list">
+          <li>Ходовая и рулевая рейка</li>
+          <li>Двигатель и АКПП</li>
+          <li>Тормозная система</li>
+          <li>Электрика и блоки управления</li>
+        </ul>
+        <a href="#cta" class="scard__go">Подробнее <span aria-hidden="true">→</span></a>
+      </article>
+
+      <article class="scard">
+        <span class="scard__n">02</span>
+        <div class="scard__ic">
+          <svg viewBox="0 0 32 32" width="26" height="26" aria-hidden="true"><path d="M16 5v13M11 13l5-5 5 5" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/><path d="M6 18h20" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/><path d="M9 18v4M23 18v4" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></svg>
+        </div>
+        <h3>Техническое обслуживание</h3>
+        <p>Регламентное ТО по графику производителя: масла, фильтры, жидкости и проверка всех узлов. Напомним о ТО заранее.</p>
+        <ul class="scard__list">
+          <li>Замена масла и фильтров</li>
+          <li>Замена антифриза</li>
+          <li>Замена тормозной жидкости</li>
+          <li>Проверка и замена ремня ГРМ</li>
+        </ul>
+        <a href="#cta" class="scard__go">Подробнее <span aria-hidden="true">→</span></a>
+      </article>
+
+      <article class="scard">
+        <span class="scard__n">03</span>
+        <div class="scard__ic">
+          <svg viewBox="0 0 32 32" width="26" height="26" aria-hidden="true"><path d="M11 4h10v4H11zM13 8v5M19 8v5" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/><path d="M9 13h14v6l2 4v5H7v-5l2-4z" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/><path d="M12 20h8" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></svg>
+        </div>
+        <h3>Ремонт двигателя</h3>
+        <p>Капитальный и текущий ремонт моторов любой сложности. Замена ГРМ, вкладышей, сальников, прокладок, турбины.</p>
+        <ul class="scard__list">
+          <li>Капитальный ремонт</li>
+          <li>Замена ГРМ и цепи</li>
+          <li>Ремонт турбины</li>
+          <li>Замена прокладок и сальников</li>
+        </ul>
+        <a href="#cta" class="scard__go">Подробнее <span aria-hidden="true">→</span></a>
+      </article>
+
+      <article class="scard">
+        <span class="scard__n">04</span>
+        <div class="scard__ic">
+          <svg viewBox="0 0 32 32" width="26" height="26" aria-hidden="true"><circle cx="16" cy="19" r="9" fill="none" stroke="currentColor" stroke-width="1.7"/><circle cx="16" cy="19" r="3" fill="none" stroke="currentColor" stroke-width="1.7"/><path d="M16 4v5M6.5 9.5l4 3M25.5 9.5l-4 3" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></svg>
+        </div>
+        <h3>Ремонт ходовой</h3>
+        <p>Подвеска, рычаги, ступицы, амортизаторы, пружины. Компьютерный сход-развал на четырёхстолбковом стенде.</p>
+        <ul class="scard__list">
+          <li>Замена амортизаторов и пружин</li>
+          <li>Ремонт рычагов и сайлентблоков</li>
+          <li>Замена ступиц и подшипников</li>
+          <li>Развал-схождение</li>
+        </ul>
+        <a href="#cta" class="scard__go">Подробнее <span aria-hidden="true">→</span></a>
+      </article>
+
+      <article class="scard">
+        <span class="scard__n">05</span>
+        <div class="scard__ic">
+          <svg viewBox="0 0 32 32" width="26" height="26" aria-hidden="true"><circle cx="16" cy="16" r="11" fill="none" stroke="currentColor" stroke-width="1.7"/><circle cx="16" cy="16" r="4" fill="none" stroke="currentColor" stroke-width="1.7"/><path d="M16 9v3M16 20v3M9 16h3M20 16h3" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></svg>
+        </div>
+        <h3>Тормозная система</h3>
+        <p>Колодки, диски, суппорты, тормозная жидкость. Прокачка гидросистемы и контроль качества тормозов на стенде.</p>
+        <ul class="scard__list">
+          <li>Замена колодок и дисков</li>
+          <li>Ремонт суппортов</li>
+          <li>Замена тормозной жидкости</li>
+          <li>Прокачка системы</li>
+        </ul>
+        <a href="#cta" class="scard__go">Подробнее <span aria-hidden="true">→</span></a>
+      </article>
+
+      <article class="scard">
+        <span class="scard__n">06</span>
+        <div class="scard__ic">
+          <svg viewBox="0 0 32 32" width="26" height="26" aria-hidden="true"><path d="M16 4l8 5.4v13.2L16 28l-8-5.4V9.4z" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/><path d="M12 15.6l-1.6 5.2h4.2l1.6-5.2zM20 10.4l-1.6 5.2h4.2l1.6-5.2z" fill="currentColor"/></svg>
+        </div>
+        <h3>Электрика и электроника</h3>
+        <p>Поиск неисправностей в проводке, блоки управления, климат-контроль, свет, оптика и сигнализация.</p>
+        <ul class="scard__list">
+          <li>Диагностика сканером</li>
+          <li>Ремонт блоков управления</li>
+          <li>Замена проводки</li>
+          <li>Ремонт оптики и света</li>
+        </ul>
+        <a href="#cta" class="scard__go">Подробнее <span aria-hidden="true">→</span></a>
+      </article>
+    </div>
+
+    <div class="brands">
+      <h3 class="brands__t">Ремонтируем автомобили всех марок</h3>
+      <ul class="brands__l">
+        <li>Toyota</li><li>Volkswagen</li><li>BMW</li><li>Audi</li><li>Mercedes-Benz</li>
+        <li>Hyundai</li><li>Kia</li><li>Skoda</li><li>Lada</li><li>Nissan</li>
+        <li>Volvo</li><li>Lexus</li><li>Ford</li><li>Chery</li><li>Geely</li><li>Другие марки</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<!-- ======================= ПРОЦЕСС ======================= -->
+<section class="sec process" id="process">
+  <div class="container">
+    <div class="sec__hd">
+      <div>
+        <span class="sec__mark">03 — Процесс</span>
+        <h2 class="sec__h2">Как проходит обслуживание</h2>
+      </div>
+      <p class="sec__lead">Четыре шага от звонка до выдачи автомобиля. На каждом этапе вы знаете, что происходит с машиной и сколько это стоит.</p>
+    </div>
+
+    <ol class="steps">
+      <li class="step">
+        <span class="step__n">01</span>
+        <div class="step__b">
+          <h3>Запись</h3>
+          <p>Вы выбираете удобное время. Подтверждаем запись и напоминаем за сутки до визита.</p>
+        </div>
+      </li>
+      <li class="step">
+        <span class="step__n">02</span>
+        <div class="step__b">
+          <h3>Диагностика</h3>
+          <p>Мастер осматривает автомобиль, проверяет агрегаты на сканере и определяет проблему.</p>
+        </div>
+      </li>
+      <li class="step">
+        <span class="step__n">03</span>
+        <div class="step__b">
+          <h3>Согласование</h3>
+          <p>Сообщаем стоимость и список работ. Начинаем только после вашего подтверждения.</p>
+        </div>
+      </li>
+      <li class="step">
+        <span class="step__n">04</span>
+        <div class="step__b">
+          <h3>Готовый автомобиль</h3>
+          <p>Вы получаете автомобиль, гарантийный талон и рекомендации по дальнейшему обслуживанию.</p>
+        </div>
+      </li>
+    </ol>
+  </div>
+</section>
+
+<!-- ======================= О КОМПАНИИ / CTA-БАННЕР ======================= -->
+<section class="band" id="about">
+  <div class="container band__in">
+    <img class="band__ph" src="assets/img/dark-undercar.jpg" alt="Мастер проводит диагностику днища автомобиля на подъёмнике" width="1400" height="1867" loading="lazy">
+    <div class="band__tx">
+      <span class="band__mark">04 — О компании</span>
+      <h2>Сервис без лишних обещаний</h2>
+      <p>Мы не говорим «положить за час». Мы показываем, что именно сломалось, называем цену до начала работ и отвечаем за результат гарантией. Автомобиль можно оставить на время работ — зона ожидания с Wi-Fi и кофе.</p>
+      <ul class="band__nums">
+        <li><b>12 400</b><span>автомобилей прошли сервис</span></li>
+        <li><b>4</b><span>рабочих поста</span></li>
+        <li><b>1 240</b><span>отзывов, средний балл 4.9</span></li>
+      </ul>
+      <a href="#gallery" class="btn btn--glass">Посмотреть сервис</a>
+    </div>
+  </div>
+</section>
+
+<!-- ======================= ЦЕНЫ ======================= -->
+<section class="sec sec--grey" id="prices">
+  <div class="container">
+    <div class="sec__hd">
+      <div>
+        <span class="sec__mark">05 — Популярные работы</span>
+        <h2 class="sec__h2">Что чаще всего заказывают</h2>
+      </div>
+      <p class="sec__lead">Цены указаны для распространённых моделей. Итоговую стоимость мастер называет после осмотра автомобиля — до начала работ.</p>
+    </div>
+
+    <div class="prices">
+      <article class="pcard">
+        <h3>Замена масла</h3>
+        <div class="pcard__v">от 2 500 ₽</div>
+        <p>Масло моторное, масляный фильтр, проверка уровней жидкостей и сброс сервисного интервала.</p>
+        <div class="pcard__f"><span>30–40 мин</span><a href="#cta">Записаться</a></div>
+      </article>
+      <article class="pcard">
+        <h3>Диагностика</h3>
+        <div class="pcard__v">от 1 500 ₽</div>
+        <p>Комплексный осмотр агрегатов и узлов с письменным заключением и фотоотчётом по итогам.</p>
+        <div class="pcard__f"><span>40–60 мин</span><a href="#cta">Записаться</a></div>
+      </article>
+      <article class="pcard">
+        <h3>Замена тормозных колодок</h3>
+        <div class="pcard__v">от 3 000 ₽</div>
+        <p>Колодки, проверка дисков и суппортов, контроль качества тормозов на диагностическом стенде.</p>
+        <div class="pcard__f"><span>60–90 мин</span><a href="#cta">Записаться</a></div>
+      </article>
+      <article class="pcard">
+        <h3>Компьютерная диагностика</h3>
+        <div class="pcard__v">от 1 500 ₽</div>
+        <p>Считывание ошибок всех блоков, проверка адаптаций и анализ телеметрии работы систем.</p>
+        <div class="pcard__f"><span>30–50 мин</span><a href="#cta">Записаться</a></div>
+      </article>
+      <article class="pcard">
+        <h3>Обслуживание кондиционера</h3>
+        <div class="pcard__v">от 2 500 ₽</div>
+        <p>Чистка узлов, заправка хладагентом, проверка давления и герметичности контура.</p>
+        <div class="pcard__f"><span>60 мин</span><a href="#cta">Записаться</a></div>
+      </article>
+      <article class="pcard">
+        <h3>Диагностика ходовой</h3>
+        <div class="pcard__v">от 1 000 ₽</div>
+        <p>Проверка подвески, рулевой рейки, рычагов и сайлентблоков на подъёмнике.</p>
+        <div class="pcard__f"><span>30–40 мин</span><a href="#cta">Записаться</a></div>
+      </article>
+    </div>
+
+    <div class="prices__end">
+      <a href="#cta" class="btn btn--dark">Все цены</a>
+      <p>Не нашли нужную работу? Позвоните — назовём стоимость по телефону за пять минут.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ======================= ФОТОГАЛЕРЕЯ ======================= -->
+<section class="sec" id="gallery">
+  <div class="container">
+    <div class="sec__hd">
+      <div>
+        <span class="sec__mark">06 — Фотогалерея</span>
+        <h2 class="sec__h2">Как устроен наш сервис</h2>
+      </div>
+      <p class="sec__lead">Четыре поста, отдельная зона ожидания и диагностический центр. Можно приехать и посмотреть лично — покажем оборудование и подъёмники.</p>
+    </div>
+
+    <div class="gal">
+      <figure class="gi gi--1"><img src="assets/img/g-lift.jpg" alt="Автомобиль поднят на гидравлический подъёмник в сервисной зоне" width="1200" height="675" loading="lazy"><figcaption>Автомобиль на подъёмнике</figcaption></figure>
+      <figure class="gi gi--2"><img src="assets/img/g-inspect.jpg" alt="Мастер осматривает днище автомобиля диагностическим фонарём" width="900" height="1350" loading="lazy"><figcaption>Диагностика ходовой</figcaption></figure>
+      <figure class="gi gi--3"><img src="assets/img/g-tools.jpg" alt="Профессиональный инструмент и оборудование мастерской" width="1200" height="675" loading="lazy"><figcaption>Оборудование и инструмент</figcaption></figure>
+      <figure class="gi gi--4"><img src="assets/img/g-diag.jpg" alt="Мастер проверяет двигатель под открытым капотом" width="1200" height="675" loading="lazy"><figcaption>Проверка двигателя</figcaption></figure>
+      <figure class="gi gi--5"><img src="assets/img/g-waiting.jpg" alt="Зона ожидания автосервиса с диванами и креслами" width="1400" height="933" loading="lazy"><figcaption>Зона ожидания</figcaption></figure>
+      <figure class="gi gi--6"><img src="assets/img/workshop-wide.jpg" alt="Просторный сервисный цех с рабочими постами" width="1400" height="788" loading="lazy"><figcaption>Сервисный цех</figcaption></figure>
+    </div>
+  </div>
+</section>
+
+<!-- ======================= ОТЗЫВЫ ======================= -->
+<section class="sec sec--grey" id="reviews">
+  <div class="container">
+    <div class="sec__hd">
+      <div>
+        <span class="sec__mark">07 — Отзывы</span>
+        <h2 class="sec__h2">Отзывы наших клиентов</h2>
+      </div>
+      <div class="revrate">
+        <b>4.9</b>
+        <div>
+          <span class="revrate__s">★★★★★</span>
+          <span>1 240 отзывов на картах и в справочниках</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="revs">
+      <article class="rcard">
+        <div class="rcard__top"><span class="stars">★★★★★</span><span class="rcard__d">14 марта 2026</span></div>
+        <p>Приехал с подозрением на прыгающую подвеску. Мастер показал на экране диагностики, что стойка разбита, и сразу назвал цену вместе с работой. Ни одного лишнего пункта в смете так и не появилось.</p>
+        <div class="rcard__f">
+          <span class="ava">АК</span>
+          <div><b>Алексей Крылов</b><span>Volkswagen Tiguan, 2019</span></div>
+        </div>
+      </article>
+      <article class="rcard">
+        <div class="rcard__top"><span class="stars">★★★★★</span><span class="rcard__d">2 марта 2026</span></div>
+        <p>Сдавали кроссовер на ТО перед поездкой. Позвонили заранее и честно предупредили, что один болт придётся доверчать отдельно. Автомобиль вернули в тот же день, всё по смете.</p>
+        <div class="rcard__f">
+          <span class="ava">МС</span>
+          <div><b>Марина Соловьёва</b><span>Subaru Forester, 2021</span></div>
+        </div>
+      </article>
+      <article class="rcard">
+        <div class="rcard__top"><span class="stars">★★★★★</span><span class="rcard__d">19 февраля 2026</span></div>
+        <p>Ремонтировали кондиционер после обслуживания у другого сервиса. Здесь сразу сказали, что часть работы придётся делать повторно, и объяснили почему. Фотоотчёт присылали по ходу.</p>
+        <div class="rcard__f">
+          <span class="ava">ДН</span>
+          <div><b>Дмитрий Нестеров</b><span>BMW X5, 2018</span></div>
+        </div>
+      </article>
+      <article class="rcard">
+        <div class="rcard__top"><span class="stars">★★★★★</span><span class="rcard__d">5 февраля 2026</span></div>
+        <p>Записался на замену масла и попутно попросил посмотреть коробку. Мастер нашёл течь сальника и предупредил заранее, что менять нужно в ближайшие пару тысяч км. Ценно.</p>
+        <div class="rcard__f">
+          <span class="ava">ИП</span>
+          <div><b>Игорь Пашнин</b><span>Lada Vesta, 2022</span></div>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ======================= CTA ======================= -->
+<section class="cta" id="cta">
+  <div class="container cta__in">
+    <div class="cta__l">
+      <span class="cta__mark">08 — Запись на сервис</span>
+      <h2>Нужна диагностика<br>или ремонт?</h2>
+      <p>Оставьте заявку — свяжемся с вами в течение 15 минут и подберём удобное время.</p>
+      <ul class="cta__adv">
+        <li>Ответим в среднем за 6 минут</li>
+        <li>Назовём стоимость до визита</li>
+        <li>Подберём удобное время</li>
+      </ul>
+    </div>
+
+    <form class="cta__frm" id="frm" novalidate>
+      <h3 class="cta__ft">Записаться на сервис</h3>
+      <div class="fr">
+        <label for="n1">Ваше имя</label>
+        <input type="text" id="n1" name="name" placeholder="Как к вам обращаться" autocomplete="name">
+      </div>
+      <div class="fr">
+        <label for="p1">Телефон</label>
+        <input type="tel" id="p1" name="phone" placeholder="+7 (___) ___-__-__" autocomplete="tel">
+      </div>
+      <div class="fr">
+        <label for="s1">Что требуется</label>
+        <select id="s1" name="service">
+          <option>Диагностика</option>
+          <option>Техническое обслуживание</option>
+          <option>Ремонт двигателя</option>
+          <option>Ремонт ходовой</option>
+          <option>Тормозная система</option>
+          <option>Электрика и электроника</option>
+          <option>Другое — уточню по телефону</option>
+        </select>
+      </div>
+      <button type="submit" class="btn btn--red btn--full btn--lg">Отправить заявку</button>
+      <p class="cta__pol">Нажимая кнопку, вы соглашаетесь с политикой обработки персональных данных.</p>
+      <div class="cta__ok" id="ok" role="status" aria-live="polite">
+        <svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><path d="M4 12.5l5 5L20 7" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        Заявка принята — перезвоним в течение 15 минут.
+      </div>
+    </form>
+  </div>
+</section>
+
+</main>
+
+<!-- ======================= ПОДВАЛ ======================= -->
+<footer class="ftr" id="contacts">
+  <div class="container ftr__in">
+    <div class="ftr__b">
+      <a href="#top" class="logo logo--lt">
+        <span class="logo__ic">
+          <svg viewBox="0 0 32 32" width="30" height="30" aria-hidden="true"><path fill-rule="evenodd" d="M16 4.6 27.4 25h-5.1l-2.3-4.9h-8L9.7 25H4.6L16 4.6Zm0 6.9-2.5 5.4h5L16 11.5Z" fill="currentColor"/></svg>
+        </span>
+        <span class="logo__tx"><b>АВТОТЕХ</b><i>автосервис в Москве</i></span>
+      </a>
+      <p>Автосервис полного цикла. Диагностика, техническое обслуживание и ремонт автомобилей с гарантией на работы.</p>
+      <div class="ftr__soc">
+        <a href="#" aria-label="Telegram"><svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><path d="M21 5.5L2.8 11.3c-.8.3-.8.9-.1 1.1l4.6 1.5 1.7 5c.2.5.5.6.9.2l2.4-2.9 4.6 3.4c.7.4 1.2.2 1.4-.7l2.6-12.1c.2-.9-.4-1.3-.9-1.3z" fill="currentColor"/></svg></a>
+        <a href="#" aria-label="ВКонтакте"><svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><path d="M13.1 17.3c-5.3 0-8.6-3.7-8.7-9.8h2.7c.1 4.5 2.1 6.4 3.7 6.8V7.5h2.6v3.9c1.5-.2 3.1-1.9 3.6-3.9h2.6c-.4 2.4-2.1 4.1-3.3 4.8 1.2.6 3.2 2.1 4 5h-2.9c-.6-1.9-2.1-3.4-4-3.6v3.6z" fill="currentColor"/></svg></a>
+        <a href="#" aria-label="WhatsApp"><svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><path d="M12 3a9 9 0 0 0-7.8 13.5L3 21l4.7-1.2A9 9 0 1 0 12 3zm0 16.2a7.2 7.2 0 0 1-3.7-1l-.3-.2-2.8.7.7-2.7-.2-.3A7.2 7.2 0 1 1 12 19.2zm4-5.3c-.2-.1-1.3-.6-1.5-.7-.2-.1-.4-.1-.5.1l-.7.9c-.1.2-.3.2-.5.1a6 6 0 0 1-2.9-2.6c-.2-.3.1-.5.2-.6l.4-.5c.1-.2.1-.3 0-.5l-.7-1.7c-.2-.4-.4-.4-.5-.4h-.5c-.2 0-.5.1-.7.4-.3.3-1 1-1 2.5s1.1 2.9 1.2 3.1c.2.2 2.1 3.2 5 4.4 2.4 1 2.9.8 3.4.8.5 0 1.6-.7 1.9-1.3.2-.7.2-1.2.2-1.3-.1-.2-.2-.2-.4-.3z" fill="currentColor"/></svg></a>
+      </div>
+    </div>
+
+    <nav class="ftr__c" aria-label="Навигация в подвале">
+      <h4>Меню</h4>
+      <a href="#services">Услуги</a>
+      <a href="#prices">Цены</a>
+      <a href="#process">Как мы работаем</a>
+      <a href="#about">О компании</a>
+      <a href="#gallery">Фотогалерея</a>
+      <a href="#reviews">Отзывы</a>
+    </nav>
+
+    <div class="ftr__c">
+      <h4>Услуги</h4>
+      <a href="#services">Диагностика автомобиля</a>
+      <a href="#services">Техническое обслуживание</a>
+      <a href="#services">Ремонт двигателя</a>
+      <a href="#services">Ремонт ходовой</a>
+      <a href="#services">Тормозная система</a>
+      <a href="#services">Электрика и электроника</a>
+    </div>
+
+    <div class="ftr__c ftr__c--ct">
+      <h4>Контакты</h4>
+      <a href="tel:+79000000000" class="ftr__tel">+7 (900) 000-00-00</a>
+      <p><b>Адрес</b><br>Москва, ул. Мастеровая, 12, стр. 3</p>
+      <p><b>Часы работы</b><br>Пн–Вс: 09:00 — 21:00</p>
+      <p><b>Как добраться</b><br>5 минут от м. Динамо, бесплатная парковка для клиентов</p>
+      <a href="#cta" class="btn btn--red btn--sm">Записаться на сервис</a>
+    </div>
+  </div>
+
+  <div class="container ftr__bt">
+    <span>© 2026 АВТОТЕХ. Демонстрационный дизайн-макет.</span>
+    <span>Информация на сайте не является публичной офертой.</span>
+  </div>
+</footer>
+
+<script src="assets/js/script.js"></script>
+</body>
+</html>
